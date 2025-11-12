@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Bem-vindo ao Sistema  IFPermutas</h1>
+    <p>Usuário: {{ request.user.username }}</p>
+    <a href="{% url 'logout' %}">Sair</a>
+</body>
+</html>
